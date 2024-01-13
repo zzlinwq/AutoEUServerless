@@ -17,18 +17,18 @@ import requests
 from bs4 import BeautifulSoup
 
 # 账户信息：用户名和密码
-USERNAME = '改为你的EUserV客户ID 或 邮箱'  # 填写用户名或邮箱
-PASSWORD = '改为你的EUserV的密码'  # 填写密码
+USERNAME = 'zzlinwq@foxmail.com'  # 填写用户名或邮箱
+PASSWORD = 'Nj606808@'  # 填写密码 
 
 # TrueCaptcha API 配置
-# 申请地址: https://truecaptcha.org/
+# 申请地址: https://truecaptcha.org/ 
 
-TRUECAPTCHA_USERID = '改为你的TrueCaptcha UserID'
-TRUECAPTCHA_APIKEY = '改为你的TrueCaptcha APIKEY'
+TRUECAPTCHA_USERID = 'a56143575' 
+TRUECAPTCHA_APIKEY = 'wVnDTc6uaCWByEB5drdv' 
 
 # Mailparser 配置
 MAILPARSER_DOWNLOAD_URL_ID = '改为你的Mailparser下载URL的最后几位' # 填写Mailparser的下载URL_ID
-MAILPARSER_DOWNLOAD_BASE_URL = "https://files.mailparser.io/d/" # 无需更改除非你要反代
+MAILPARSER_DOWNLOAD_BASE_URL = "https://files.mailparser.io/d/" # 无需更改除非你要反代 
 
 # Telegram Bot 推送配置
 TG_BOT_TOKEN = "改为你的Telegram机器人Token"
@@ -39,7 +39,7 @@ TG_API_HOST = "https://api.telegram.org"
 PROXIES = {"http": "http://127.0.0.1:10808", "https": "http://127.0.0.1:10808"}
 
 # 最大登录重试次数
-LOGIN_MAX_RETRY_COUNT = 5
+LOGIN_MAX_RETRY_COUNT = 5 
 
 # 接收 PIN 的等待时间，单位为秒
 WAITING_TIME_OF_PIN = 15
