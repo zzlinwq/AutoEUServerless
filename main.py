@@ -18,10 +18,10 @@ from bs4 import BeautifulSoup
 
 # 账户信息：用户名和密码
 USERNAME = 'zzlinwq@foxmail.com'  # 填写用户名或邮箱
-PASSWORD = 'Nj606808@'  # 填写密码 
+PASSWORD = 'QWER606808@'  # 填写密码 
 
 # TrueCaptcha API 配置
-# 申请地址: https://truecaptcha.org/ 
+# 申请地址: https://truecaptcha.org/  
 
 TRUECAPTCHA_USERID = 'a56143575' 
 TRUECAPTCHA_APIKEY = 'wVnDTc6uaCWByEB5drdv' 
