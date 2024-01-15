@@ -27,12 +27,12 @@ TRUECAPTCHA_USERID = 'a56143575' 
 TRUECAPTCHA_APIKEY = 'wVnDTc6uaCWByEB5drdv' 
 
 # Mailparser 配置
-MAILPARSER_DOWNLOAD_URL_ID = '改为你的Mailparser下载URL的最后几位' # 填写Mailparser的下载URL_ID
+MAILPARSER_DOWNLOAD_URL_ID = 'ifxuesjy' # 填写Mailparser的下载URL_ID
 MAILPARSER_DOWNLOAD_BASE_URL = "https://files.mailparser.io/d/" # 无需更改除非你要反代 
 
 # Telegram Bot 推送配置
-TG_BOT_TOKEN = "改为你的Telegram机器人Token"
-TG_USER_ID = "改为你的用户ID" # 用户机器人向你发送消息
+TG_BOT_TOKEN = "1863890507:AAFK3xrY72IpOub9_c604K7h9xvuD-wQQq0"
+TG_USER_ID = "a56143575" # 用户机器人向你发送消息
 TG_API_HOST = "https://api.telegram.org"
 
 # 代理设置（如果需要）
